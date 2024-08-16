@@ -1,0 +1,61 @@
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+.nav-bar {
+  background-color: #86ab89;
+  color: #e7fbe6;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 15px 0px;
+  font-size: 18px;
+}
+
+.nav-bar .logo {
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+.nav-links li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-bar a {
+  color: #e7fbe6;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  font-size: 27px;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.introduction .pic-container {
+  padding: 20px;
+  display: flex;
+  border-radius: 20px;
+  width: 400px;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.introduction .intro-content {
+  width: 50%;
+  padding-left: 35px;
+  font-size: 20px;
+}
