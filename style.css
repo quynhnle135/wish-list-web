@@ -3,13 +3,14 @@ body {
 }
 
 .nav-bar {
-  background-color: #86ab89;
+  background-color: #f0a8d0;
   color: black;
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  padding: 15px 0px;
+  padding: 10px 0px;
   font-size: 18px;
+  margin-top: 0;
 }
 
 .nav-bar .logo {
@@ -24,12 +25,12 @@ body {
 }
 
 .nav-bar a {
-  color: #e7fbe6;
+  color: #921a40;
 }
 
 .header {
+  margin-top: 20px;
   text-align: center;
-  padding: 20px;
   font-size: 27px;
   color: black;
 }
@@ -102,7 +103,7 @@ body {
 }
 
 .sub a {
-  color: #c75b7a;
+  color: #921a40;
 }
 
 .sub p {
@@ -112,7 +113,7 @@ body {
 .contact-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  margin-top: 40px;
 }
 
 .contact {
@@ -123,8 +124,8 @@ body {
 
 .contact-pic-container {
   display: flex;
-  height: 450px;
-  width: 350px;
+  height: 400px;
+  width: 300px;
 }
 
 .contact-pic-container img {
@@ -144,3 +145,12 @@ body {
   color: #c75b7a;
   padding: 10px 0px;
 }
+
+/* .footer-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #c75b7a;
+  text-align: center;
+  width: 100%;
+} */
