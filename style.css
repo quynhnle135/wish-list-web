@@ -108,3 +108,39 @@ body {
 .sub p {
   letter-spacing: 1px;
 }
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-pic-container {
+  display: flex;
+  height: 450px;
+  width: 350px;
+}
+
+.contact-pic-container img {
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.contact-content {
+  padding-right: 70px;
+  font-size: 20px;
+}
+
+.contact-content li {
+  color: #c75b7a;
+  padding: 10px 0px;
+}
