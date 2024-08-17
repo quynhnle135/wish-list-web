@@ -3,7 +3,8 @@ body {
 }
 
 .nav-bar {
-  background-color: #f0a8d0;
+  /* background-color: #f0a8d0; */
+  background-color: #c75b7a;
   color: black;
   display: flex;
   justify-content: flex-end;
@@ -25,7 +26,7 @@ body {
 }
 
 .nav-bar a {
-  color: #921a40;
+  color: white;
 }
 
 .header {
@@ -52,9 +53,8 @@ body {
 .introduction img {
   width: 100%;
   border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
 .introduction .intro-content {
@@ -71,6 +71,9 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 30px;
+  padding-bottom: 70px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 
 .category {
@@ -113,7 +116,7 @@ body {
 .contact-container {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin: 50px 0px 70px 0px;
 }
 
 .contact {
@@ -125,7 +128,8 @@ body {
 .contact-pic-container {
   display: flex;
   height: 400px;
-  width: 300px;
+  width: 350px;
+  margin-left: 20px;
 }
 
 .contact-pic-container img {
@@ -137,8 +141,9 @@ body {
 }
 
 .contact-content {
-  padding-right: 70px;
+  padding-right: 20px;
   font-size: 20px;
+  width: 50%;
 }
 
 .contact-content li {
@@ -146,11 +151,13 @@ body {
   padding: 10px 0px;
 }
 
-/* .footer-container {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.footer-container {
   background-color: #c75b7a;
+  padding-top: 10px;
   text-align: center;
-  width: 100%;
-} */
+}
+
+.footer-container a {
+  color: white;
+  padding: 0px 5px;
+}
