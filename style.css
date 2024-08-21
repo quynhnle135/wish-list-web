@@ -3,7 +3,6 @@ body {
 }
 
 .nav-bar {
-  /* background-color: #f0a8d0; */
   background-color: #c75b7a;
   color: black;
   display: flex;
@@ -160,4 +159,73 @@ body {
 .footer-container a {
   color: white;
   padding: 0px 5px;
+}
+
+/* STYLE FOR BEAUTY PAGE */
+
+.beauty-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.beauty-container h1 {
+  color: #921a40;
+}
+
+.beauty-pic-container {
+  height: 450px;
+  width: 375px;
+  border-radius: 25px;
+}
+
+.beauty-pic-container img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.sub-beauty {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  padding-top: 0px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.beauty-content a {
+  color: #921a40;
+}
+
+.beauty-content {
+  padding-top: 25px;
+}
+
+.makeup-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 400px;
+  border-radius: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.pic-container {
+  height: 300px;
+  width: 250px;
+}
+
+.pic-container img {
+  width: 100%;
 }
